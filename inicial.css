@@ -9,12 +9,17 @@ body{
 }
 
 h2{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.f2{
-
-margin-left: 850px;
+.f2 img{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
@@ -147,20 +152,24 @@ footer{
 }
 
 .preco{
+    display: flex;
+    justify-content: center;
     font-style: italic;
     font-weight: bold;
     color: #D9A13B;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: auto;
-    margin-left: 150px;
+    margin-left: auto;
     margin-bottom: 0;
     font-size: 40px;
     margin-top: 0;
 }
 
 .desc{
+    display: flex;
+    justify-content: center;
     margin-right: auto;
-    margin-left: 180px;
+    margin-left: auto;
     margin-bottom: 30px;
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -169,7 +178,7 @@ footer{
 }
 
 .inicio{
-    margin-left: 1600px;
+    margin-left: 100px;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
