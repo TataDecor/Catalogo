@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.f1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 780px;
+
+}
+
+.f2{
+
+margin-left: 850px;
+
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #D9A13B;
+}
+
+nav{
+    color: #97722d;
+}
+
+.produtos:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl2:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl3:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl4:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl5:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl6:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl7:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl8:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl9:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+  .produtosl10:hover {
+    box-shadow: 0px 0px 10px 0px #e7b75d;
+    border-radius: 25px;
+  }
+
+.prod{
+    height: 300px;
+    border-radius: 25px;
+}
+
+
+.button {
+    margin-bottom: 40px;
+    padding: 10px;
+    border: #D9A13B;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #D9A13B;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 10px 0px #D9A13B;
+  }
+
+.ver{
+    display: flex;
+    justify-content: space-around;
+}
+
+.verl2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos, .produtosl2, .produtosl3, .produtosl4, .produtosl5, .produtosl6, .produtosl7, .produtosl8, .produtosl9, .produtosl10 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+
+footer{
+    background-color: #D9A13B;
+}
+
+.button1{
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.tdescricao{
+    margin-top: 60px;
+    margin-right: 500px;
+}
+
+.descricao{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco{
+    font-style: italic;
+    font-weight: bold;
+    color: #D9A13B;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.desc{
+    margin-left: 170px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.inicio{
+    margin-left: 1600px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.inicio:hover{
+    box-shadow: 0 0 10px 0px #97722d;
+}
+
+@media (max-width: 1200px) {
+    .f1 {
+        margin-left: 0;
+    }
+
+    .f2 {
+        margin-left: 0;
+    }
+
+    .inicio {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+    }
+
+    .inicio {
+        margin-left: 0;
+    }
+
+    .prod {
+        height: 250px;
+    }
+
+    .button1 {
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .tdescricao {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .prod {
+        height: 200px;
+    }
+
+    .preco {
+        font-size: 30px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .button1 {
+        margin-top: 30px;
+    }
+
+    .tdescricao {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo img, .arranjoheader img, .inicio {
+        height: 50px;
+        width: 50px;
+    }
+
+    .prod {
+        height: 150px;
+    }
+
+    .preco {
+        font-size: 24px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .button {
+        padding: 5px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #D9A13B;
+}
+
+.prod{
+    height: 300px;
+    border-radius: 25px;
+}
+
+
+.button {
+    margin-bottom: 40px;
+    padding: 10px;
+    border: #D9A13B;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #D9A13B;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 10px 0px #D9A13B;
+  }
+
+.ver{
+    display: flex;
+    justify-content: space-around;
+}
+
+.verl2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos, .produtosl2, .produtosl3, .produtosl4, .produtosl5, .produtosl6, .produtosl7, .produtosl8, .produtosl9, .produtosl10 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+
+footer{
+    background-color: #D9A13B;
+}
+
+.button1{
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.tdescricao{
+    margin-top: 60px;
+    margin-right: 500px;
+}
+
+.descricao{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco{
+    font-style: italic;
+    font-weight: bold;
+    color: #D9A13B;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+    margin-bottom: 0;
+    margin-top: ;
+    font-size: 40px;
+}
+
+.desc{
+    margin-top: 0;
+    margin-left: 170px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.inicio{
+    margin-left: 1600px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.inicio:hover{
+    box-shadow: 0 0 10px 0px #97722d;
+}
+
+.p1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.zap{
+    display: flex;
+    color: white;
+    height: 65px;
+    width: 400px;
+    
+    margin-right: 100px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1FA65A;
+    cursor: pointer;
+}
+
+.zapzap{
+
+    display: flex;
+    margin: 0;
+}
+
+.zapp{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pagtoo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagto{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.descc{
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+.descricaof{ 
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .f1 {
+        margin-left: 0;
+    }
+
+    .f2 {
+        margin-left: 0;
+    }
+
+    .inicio {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        flex-direction: column;
+    }
+
+    .inicio {
+        margin-left: 0;
+    }
+
+    .prod {
+        height: 250px;
+    }
+
+    .button1 {
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    .tdescricao {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .prod {
+        height: 200px;
+    }
+
+    .preco {
+        font-size: 30px;
+    }
+
+    .desc {
+        font-size: 16px;
+    }
+
+    .button1 {
+        margin-top: 30px;
+    }
+
+    .tdescricao {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo img, .arranjoheader img, .inicio {
+        height: 50px;
+        width: 50px;
+    }
+
+    .prod {
+        height: 150px;
+    }
+
+    .preco {
+        font-size: 24px;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .button {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
