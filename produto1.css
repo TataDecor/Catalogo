@@ -164,7 +164,7 @@ a{
 .descc{
     background-color: rgb(236, 236, 236);
     border-radius: 20px;
-    padding-top: 2px;
+    padding-top: 15px;
     padding-bottom: 20px;
 }
 
@@ -175,6 +175,73 @@ a{
 
 .metodpg{
     margin-left: 23px;
+}
+
+* { margin: 0; padding: 0; }
+
+.slider {
+    display: block;
+    height: 150px;
+
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    border-radius: 15px;
+    margin-left: 20px;
+    height: 90%;
+    width: 90%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    margin-top: 100px;
+    background-color: #97722d;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 30px;
+}
+
+.slider li:nth-child(2) label {
+    left: 190px;
+}
+
+.slider li:nth-child(3) label {
+    left: 350px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.info{
+    margin-top: 250px;
 }
 
 @media (max-width: 1200px) {
