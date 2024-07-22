@@ -76,15 +76,16 @@ footer{
     font-weight: bold;
     color: #D9A13B;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 150px;
+    margin-right: auto;
+    margin-left: 140px;
     margin-bottom: 0;
-    margin-top: ;
     font-size: 40px;
 }
 
 .desc{
     margin-top: 0;
-    margin-left: 170px;
+    margin-left: 160px;
+    margin-right: auto;
     margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -112,12 +113,13 @@ footer{
 }
 
 .zap{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     color: white;
     height: 65px;
-    width: 400px;
-    
-    margin-right: 100px;
+    width: 365px;
+    padding-bottom: 30px;
     margin-top: 25px;
     border: none;
     border-radius: 10px;
@@ -142,12 +144,13 @@ a{
 }
 
 .pagtoo{
+    margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .pagto{
     margin-top: 30px;
-    margin-left: 5px;
+    margin-left: auto;
 }
 
 .descc{
@@ -160,6 +163,10 @@ a{
 .descricaof{ 
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.metodpg{
+    margin-left: 23px;
 }
 
 @media (max-width: 1200px) {
