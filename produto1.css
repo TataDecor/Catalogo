@@ -207,7 +207,7 @@ a{
 
 .slider label {
     margin-top: 100px;
-    background-color: #97722d;
+    background-color: #ffffff;
     bottom: 10px;
     cursor: pointer;
     display: block;
@@ -218,17 +218,16 @@ a{
 }
 
 .slider li:nth-child(1) label {
-    margin-bottom: -40px;
+
     left: 50px;
 }
 
 .slider li:nth-child(2) label {
-    margin-bottom: -40px;
+
     left: 100px;
 }
 
 .slider li:nth-child(3) label {
-    margin-bottom: -40px;
     left: 150px;
 }
 
