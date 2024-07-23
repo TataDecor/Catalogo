@@ -23,23 +23,26 @@
                 
         <div class="imgprincipal">
 
-            <ul class="slider">
-                <li>
-                      <input type="radio" id="slide1" name="slide" checked>
-                      <label for="slide1"></label>
-                      <img src="img/a1.jpg" />
-                </li>
-                <li>
-                      <input type="radio" id="slide2" name="slide">
-                      <label for="slide2"></label>
-                      <img src="img/a2.jpg" />
-                </li>
-                <li>
-                      <input type="radio" id="slide3" name="slide">
-                      <label for="slide3"></label>
-                      <img src="img/a3.jpg" />
-                </li>
-            </ul>
+            <div class="slider-container">
+                <div class="slides fade">
+                    <img class="imgp" src="img/a2.jpg" style="width:100%">
+                </div>
+                <div class="slides fade">
+                    <img class="imgp" src="img/a3.jpg" style="width:100%">
+                </div>
+                <div class="slides fade">
+                    <img class="imgp" src="img/a1.jpg" style="width:100%">
+                </div>
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
             
 
         <div class="info">
@@ -73,6 +76,34 @@
     </div>
     </main>
 
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+    
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+    
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+    
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
     
 </body>
 </html>
